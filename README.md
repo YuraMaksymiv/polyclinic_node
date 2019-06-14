@@ -80,7 +80,7 @@ BODY: {name: STRING, surname: STRING, email: STRING, password: STRING}
 This method is using to register user
 
 To create database run code in console
-
+'''
 create schema if not exists maksyiv_1800;
 use maksyiv_1800;
 create table if not exists comments
@@ -185,3 +185,4 @@ INSERT INTO maksymiv_1800.sections (id, section_name) VALUES (3, 'traumatology')
 INSERT INTO maksymiv_1800.sections (id, section_name) VALUES (4, 'dentistry');
 INSERT INTO maksymiv_1800.users (id, name, surname, email, password, credentials) VALUES (1, 'Glenna ', 'Reichert', 'Chaim_McDermott@dana.io', '$2b$10$a49pKaSFUv20ogssaWrwcu8A7bjyGi.pAnpgAf.CnR0hUOC29Ii2G', 3);
 INSERT INTO maksymiv_1800.users (id, name, surname, email, password, credentials) VALUES (2, 'Kurtis', 'Weissnat', 'Telly.Hoeger@billy.biz', '$2b$10$HYcEZ.z1.KymLYggrukhLemhCEvZatQwUQKuatd4M4SNluat0yK4u', 3);
+'''
